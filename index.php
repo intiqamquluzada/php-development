@@ -45,3 +45,49 @@
 //$num_2 = 43;
 //
 //echo $num_2 < $num_1;
+
+
+//echo 'salam';
+//
+//$a = 88;
+//
+//if($a === '88'){
+//    echo '$a deyiseni 88\'e beraberdir';
+//}
+//elseif($a=='88'){
+//    echo '$a deyiseni 88\'e mueammali beraberdir';
+//}
+//else{
+//    echo 'Baloglan';
+//}
+
+$value = 333;
+$x = null;
+switch ($value){
+    case 333:
+        $x = '333';
+        break;
+    case 444:
+        $x = '444';
+        break;
+    default:
+        $x = '222';
+        break;
+}
+
+?>
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<?= $x ?>
+</body>
+</html>
