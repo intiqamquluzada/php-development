@@ -61,33 +61,39 @@
 //    echo 'Baloglan';
 //}
 
-$value = 333;
-$x = null;
-switch ($value){
-    case 333:
-        $x = '333';
-        break;
-    case 444:
-        $x = '444';
-        break;
-    default:
-        $x = '222';
-        break;
-}
+//$value = 333;
+//$x = null;
+//switch ($value){
+//    case 333:
+//        $x = '333';
+//        break;
+//    case 444:
+//        $x = '444';
+//        break;
+//    default:
+//        $x = '222';
+//        break;
+//}
 
-?>
 
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
 
-<?= $x ?>
-</body>
-</html>
+
+# Cute eded !
+
+//$my_num = readline('Enter your favourite number: ');
+//
+//if($my_num%2 == 0){
+//    echo 'Number is cut';
+//}
+//else {
+//    echo "Number is tek";
+//}
+
+# ARRAYS
+//
+//$my_array = array("salam", "sagol", "necesen");
+//
+//print_r($my_array[0]);
+
+$my_array = array("hello" => 'salam', 'nice' => 'gozel');
+print_r($my_array);
