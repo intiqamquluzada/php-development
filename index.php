@@ -95,5 +95,8 @@
 //
 //print_r($my_array[0]);
 
-$my_array = array("hello" => 'salam', 'nice' => 'gozel');
-print_r($my_array);
+//$my_array = array("hello" => 'salam', 'nice' => 'gozel');
+//print_r($my_array);
+
+
+
