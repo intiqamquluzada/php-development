@@ -5,6 +5,14 @@ if($_POST) {
             echo "Your phone number is wrong";
         }
 }
+
+touch('intigam.txt',time() - 84000);
+function salamlayan($x)
+{
+    return $x;
+}
+
+echo salamlayan(55);
 ?>
 
 <!DOCTYPE html>
